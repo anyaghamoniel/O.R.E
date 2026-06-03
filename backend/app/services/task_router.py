@@ -6,7 +6,7 @@ import uuid
 import logging
 from datetime import datetime
 from typing import Dict, List, Optional
-from app.models import Task, Workflow, TaskStatus, AgentType
+from app.models import Task, Workflow, TaskStatus, AgentType, Agent
 from app.job_queue import enqueue_task, get_job, cancel_job
 from sqlalchemy.orm import Session
 
